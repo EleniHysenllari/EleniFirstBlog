@@ -1,0 +1,46 @@
+
+.shprehje {
+   font-family:impact;
+   color:black;
+   text-align:center;
+   font-size:25px;
+   margin-top:25px;
+   text-shadow: .2em .2em rgb(165, 159, 159);
+}
+
+.castle {
+    display: block;
+    margin-bottom: 2%;
+    margin-left: 25%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column:hover {
+    opacity:0.5;
+}
+
+.i {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left:15%;
+    margin-right:15%;
+    margin-bottom: 2%;
+}
+
+.i:hover {
+    opacity:0.5;
+}
+
+
+

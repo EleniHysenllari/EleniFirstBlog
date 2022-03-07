@@ -1,0 +1,23 @@
+
+.form{
+    width: 50%;
+    border:2px solid;
+    border-radius: 10px;
+    box-shadow: .2em .2em .5em rgb(48, 46, 46);
+    background-color:transparent;
+    padding:1em;
+    overflow: hidden;
+    margin-left: 25%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    color:black;}
+
+.form li{
+    list-style-type:none;
+}
+.imgC{position:relative;
+    bottom:2%;
+    left:70%;
+}

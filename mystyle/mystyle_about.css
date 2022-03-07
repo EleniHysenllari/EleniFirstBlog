@@ -1,0 +1,33 @@
+
+.video {
+
+    margin-left:15%;
+    margin-top:2%;
+}
+
+.story2 {
+    margin-top:2%;
+}
+.story2:hover {
+    opacity:0.5;
+}
+
+section >li {
+    list-style-type:upper-roman;
+}
+
+ul >li{
+    list-style-type:disc;
+}
+
+article {
+    margin-left:20%;
+    margin-top:2%;
+    margin-right:20%;
+}
+aside {
+    width: 60%;
+    padding-left: .8rem;
+    margin-left: .5rem;
+    float: right;
+}

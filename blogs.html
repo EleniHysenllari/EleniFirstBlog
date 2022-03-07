@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Blogs</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" media="(max-width: 800px") href="mystyle">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  type="text/css" href="mystyle/mystyle_blogs.css">
+    <link rel="stylesheet"  type="text/css" href="mystyle/mystyle_HeaderAndFooter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta property="og:type" content="blog"/>
+    <meta property="og:title" content="Lena's blog"/>
+    <meta property="og:url" content="https://1dv525.github.io/eh223ti-examination-1/blogs.html"/>
+    <meta property="og:image" content="https://ecobnb.it/blog/app/uploads/sites/2/2018/07/Axels_n%C3%B6jesf%C3%A4lt._V%C3%A4xj%C3%B6.jpg"/>
+    <meta property="og:description" content="A view on my new life in Sweden"/>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+              <li><a href="about.html"> About</a></li>
+              <li><a href="index.html">Main Page </a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <article>
+        <h2>What is robots.txt and how have you configure it for your site?</h2>
+        <p> &nbsp; A robots.txt file tells search engine crawlers(also known as robots,spiders) which pages or files the crawler can or can't request from your site.
+        This is used mainly to avoid overloading  site with requests.
+        Ideally, a robots.txt file is placed in the top-level directory of  website so that robots
+        can access its instructions right away.It lists the URLs that the webmaster doesn’t want Google or any
+        search engine to index and prevents them from visiting and tracking the selected pages.
+        When a bot finds a website on the Internet, the first thing it does is check the
+        robots.txt file in order to learn what it is allowed to explore and what it has to ignore during the crawl.</p>
+        <p> In my webpage I have created a robots.txt file and I have stopped all search engines  to index the contact page.</p>
+        <p>User-Agent:* </p>
+         Disallow : /contact.html
+    </article>
+
+    <article>
+        <h2>What is humans.txt and how have you configure it for your site?</h2>
+        <p>&nbsp; It's an initiative for knowing the people behind a website. It's a TXT file that contains
+            information about the different people who have contributed to building the website.
+        <details>
+            <summary>Where is it located?</summary>
+            In the site root. Just next to the robots.txt file.
+            If possible, you can also add an author tag to the head of the site.
+        </details>
+        </p>
+        In my site I created a human.txt file.
+        <p>Placed  a reference to the file in the < head> of the site: < link rel="author" href="humans.txt" /></br>
+        And in the human.txt file I gave some information:</p>
+        <p> /* TEAM */      </br>
+        Developer: Eleni Hysenllari</br>
+        Yahoo: elenihysenllari@yahoo.com</br>
+        Facebook: Eleni Hysenllari</br>
+        Instagram: Eleni Hysenllari</br>
+        Linkedin: Eleni Hysenllari</br>
+
+        Location: Växjö, Sweden</br>
+
+        /* THANKS */	</br>
+        Name: Linnaeus University</br>
+
+        /* SITE */</br>
+
+        Last update: 2019/09/17 </br>
+
+        Standards: HTML5, CSS</br>
+
+        Software: Visual Studio Code</br>
+        </p>
+    </article>
+
+    <article>
+        <h2>What is Open Graph and how do you make use of it on your site?</h2>
+        <p>
+            &nbsp; Open Graph is a technology first introduced by Facebook in 2010 that allows integration between Facebook and its user data and a website.
+            By integrating Open Graph meta tags into your page's
+            content, you can identify which elements of your page you want to show when someone share's your page.
+            To turn my webpage into a graph object, I used open graphs protocol meta tags such as:
+        <p>
+            < meta property="og:type" content="blog"/></br>
+            < meta property="og:title" content="Lena's blog"/></br>
+            < meta property="og:url" content="https://1dv525.github.io/eh223ti-examination-1/blogs.html"/></br>
+            < meta property="og:image" content="https://ecobnb.it/blog/app/uploads/sites/2/2018/07/Axels_n%C3%B6jesf%C3%A4lt._V%C3%A4xj%C3%B6.jpg"/> </br>
+            < meta property="og:description" content="A view on my new life in Sweden"/>
+        </p>
+              which I put on the head of my html pages.
+        </br> Facebook offers an Open Graph debugger that
+             allows anyone to test their page and determine how it will appear when shared on Facebook.
+             I opened Facebook for Developers then Sharing Debugger where I could see link preview. In the end I opened
+             Open Graph Object Debugger and shared it on Facebook.
+        </p>
+        <figure>
+            <img src="photo/Open Graph.PNG" width="50%">
+            <figcaption>Lena's Blog shared on Facebook</figcaption>
+        </figure>
+    </article>
+
+    <article>
+        <h2> Why is it important to seperate the layout and design (css) from content (html)?</h2>
+        <p>&nbsp; If we use Inline stylesheets we specify for a specific element and need to copy for the others. Also
+            if we use Embedded stylesheets every page should have the same style in the head and they will download the same style everytime
+             they are opened. If we seperate the design from the content
+        in seperate files, browser downloads mystyle.css and when the user goes to next page the browser will load the next html file and will find that  the
+         file .css it needs, is cashed in the browser and the site will load faster.
+        </p>
+    </article>
+    </main>
+
+    <footer>
+        <div class=foot>
+            <div class="foot1">
+                <ul>
+                    <li><a href="https://www.facebook.com/people/Eleni-Hysenllari/100013233842612"><img src="photo/fb.png"></a></li>
+                    <li><a href="https://www.instagram.com/elenihysenllari/?hl=de"><img src="photo/ins.png"></a></li>
+                    <li><a href="https://www.linkedin.com/in/eleni-hysenllari-528a78170/"><img src="photo/link.png"></a></li>
+                    <li><a href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="photo/tw.png"></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=kMUqSMTr8wc"><img src="photo/you.png"></a></li>
+                </ul>
+            </div>
+            <div class="column-left">
+                <h2>Contact  me</h2>
+                <p><a href="contact.html"><i style="font-size:24px;color:white" class="fa">&#xf27b;</i></a></p>
+            </div>
+            <div class="column-center">
+                <h2>Address</h2>
+                <h3><i style="font-size:24px" class="fa">&#xf041;</i>Vejdes Plats 2</h3>
+                <h3>352 52 Växjö </h3>
+            </div>
+            <div class="column-right">
+                <h2><i style="font-size:24px" class="fa">&#xf095;</i> +355696180323</h2>
+            </div>
+        </div>
+        <p class="final1"> &copy; Copyright 2019  Eleni Hysenllari-All Right Reserved </p>
+    </footer>
+</body>
+</html>

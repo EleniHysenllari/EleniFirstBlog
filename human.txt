@@ -1,0 +1,18 @@
+
+/* TEAM */
+Developer: Eleni Hysenllari
+
+Yahoo: elenihysenllari@yahoo.com
+Facebook: Eleni Hysenllari
+Instagram: Eleni Hysenllari
+Linkedin: Eleni Hysenllari
+
+Location: Växjö, Sweden
+
+/* THANKS */
+Name: Linnaeus University
+
+/* SITE */
+Last update: 2019/09/17
+Standards: HTML5, CSS
+Software: Visual Studio Code

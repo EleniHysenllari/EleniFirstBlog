@@ -1,0 +1,12 @@
+
+article {
+    margin:5%;
+}
+article >h2 {
+    text-align:center;
+}
+
+figure{
+    margin-top:3%;
+    margin-left:25%;
+}
